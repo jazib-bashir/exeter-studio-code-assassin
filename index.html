@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Code Assassin</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar code-navbar" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img id="service-logo" src="images/code-logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <div class="navigation-hodler">
+            <a class="navigation-button signin" data-toggle="modal" data-target="#signin_form">SIGN IN</a>
+            <a class="navigation-button signup" data-toggle="modal" data-target="#signup_form">SIGN UP</a>
+          </div>
+        </div>
+      </nav>
+      <section class="container banner">
+      	<div class="banner-body col-md-12">
+      		<div class="banner-left col-md-6">
+      			<h1>Are you a code assassin?</h1>
+      			<h2>See how you rank against other Code Assassins</h2>
+            <p>Powerful collaboration, code review, and code management tool for Indviduals,<br>Teams and Organizations.</p>
+            <button type="button" class="btn custom-button">Learn More</button>
+      		</div>
+          <div class="banner-right">
+            <form id="signup-form">
+              <div class="form-group">
+                <input type="text" class="form-control custom-input" id="exampleInputEmail1" placeholder="Username">
+              </div>  
+              <div class="form-group">
+                <input type="email" class="form-control custom-input" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control custom-input" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <p>By signing up, I agree to ExeterStudios's <a class="term" href="#">Terms of Service</a></p>
+              <button type="submit" class="btn btn-signup">SIGN UP</button>
+            </form>
+          </div>
+      	</div>
+      </section>
+      <section id="content">
+        <h2 class="content-heading">Code Assassin takes code reviewing to the next level</h2>
+        <p class="content-p">No need to Re-invent, Hire with Assurance, Quality Implementation</p>
+          <div class="container">
+        <div class="content-section col-md-12">
+          <div class="row" style="margin-bottom:60px;">
+            <div class="col-md-5 margin-left">
+              <i class="material-icons">group</i>
+              <h4>Community Driven Code Review</h4>
+              <p>
+                Create and reuse code that is searchable and portbale using<br>
+                Code Assassins community driven code review solutions.
+              </p>
+            </div>
+            <div class="col-md-5 col-md-offset-1">
+              <i class="material-icons">search</i>
+              <h4>Code Blocks Smart Search</h4>
+              <p>
+                Smart search technologies locates previously posted code<br> blocks, and gists similar similar to yours. No need to<br> re-create the wheel smart search it
+              </p>
+            </div>
+          </div>  
+          <div class="row">
+            <div class="col-md-5 margin-left">
+              <i class="material-icons">rate_review</i>
+              <h4>Professional Ranking & User Reviews</h4>
+              <p>
+                Participate in our socially driven community ranking system<br> to further your personal initiatives and show off<br> your coding skill.
+              </p>
+            </div>
+            <div class="col-md-5 col-md-offset-1">
+              <i class="material-icons">code</i>
+              <h4>Social Driven Code Crafting</h4>
+              <p>
+                Code assassins goal is to improve the code we create by<br> reusing segments that are publicly available, and<br> building quality into the software<br> development craft
+              </p>
+            </div>
+          </div>
+         </div>   
+        </div>
+      </section>
+      <section class="container hightlight-banner">
+        <div class="col-md-6">
+          <h2 class="heading2 margin-b20">Develop,Review,Deploy</h2>
+          <ul>
+            <li>Develop the best code & participate in our socially driven</li>
+            <li>community raking system to enhance your</li>
+            <li>your coding skills.</li>
+          </ul>
+        </div>
+        <div class="col-md-4 margin-l70">
+          <h2 class="heading2-1 margin-b20">Have Questions?</h2>
+          <ul>
+            <li>Check our frequently asked questions section or</li>
+            <li>contact support to answer your questions and queries</li>
+          </ul>
+          <button type="button" class="btn contact-button">CONTACT US</button>
+        </div>
+      </section>
+      <footer>
+        <img src="images/exeterlogo.png">
+        <div class="pull-right follow">
+          <span id="follow-us">FOLLOW US</span>
+          <span><a href=""><i class="fa fa-facebook-square"></i></a></span>
+          <span><a href=""><i class="fa fa-twitter-square"></i></a></span>
+          <span><a href=""><i class="fa fa-linkedin-square"></i></a></span>
+        </div>
+      </footer>
+
+
+      <div class="modal fade" id="signup_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel"><i class="fa fa-user"></i>SIGN UP</h4>
+            </div>
+            <div class="modal-body">
+              <div class="modal-fields">
+                <input class="form-control modal-input" type="text" placeholder="Username"/>
+                <i class="fa fa-user modalinput-i"></i>
+                <input class="form-control modal-input" type="text" placeholder="Email"/>
+                <i class="fa fa-at modalinput-i"></i>
+                <input class="form-control modal-input" type="text" placeholder="Password"/>
+                <i class="fa fa-lock modalinput-i"></i>
+              </div>
+              <p class="modal-info">By signing up, I agree to ExeterStudios <a>Term of Services</a> </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn modal-button" type="submit">SIGN UP</button>         
+            </div>
+            <div class="modal-end">
+              Already a Member? <a data-dismiss="modal" data-toggle="modal" href="#signin_form">SIGN IN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="signin_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel"><i class="fa fa-user"></i>SIGN IN</h4>
+            </div>
+            <div class="modal-body">
+              <div class="modal-fields" style="margin: 50px 10px 30px 10px;">
+                <input class="form-control modal-input" type="text" placeholder="Email"/>
+                <i class="fa fa-at modalinput-i"></i>
+                <input class="form-control modal-input" type="text" placeholder="Password"/>
+                <i class="fa fa-lock modalinput-i"></i>
+              </div>
+            </div>
+            <div class="modal-footer" style="padding-bottom: 50px;">
+              <button class="btn modal-button" type="submit">SIGN IN</button>         
+            </div>
+            <div class="modal-end">
+              Not a member yet? <a data-dismiss="modal" data-toggle="modal" href="#signup_form" >SIGN UP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+		<script src="js/jquery.min-1.11.2.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/application.js"></script>
+	</body>
+</html>
